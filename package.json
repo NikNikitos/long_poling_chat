@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "16.5.1"
+    "node": "14.17.0"
   },
   "name": "long_polling_chat",
   "version": "1.0.0",
