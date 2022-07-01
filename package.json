@@ -1,0 +1,26 @@
+{
+  "engines": {
+    "node": "16.5.1"
+  },
+  "name": "long_polling_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikNikitos/long_poling_chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikNikitos/long_poling_chat/issues"
+  },
+  "homepage": "https://github.com/NikNikitos/long_poling_chat#readme"
+
+  
+}
