@@ -1,5 +1,6 @@
 const http = require("http")
 const fs = require("fs")
+require('dotenv').config()
 const { emit } = require("process")
 
 const pool = []
@@ -39,7 +40,7 @@ http.createServer((req, res) =>{
 
     } else if (method === "POST" && url === "/message") handleMessage(req, res);
     else req.end();
-}).listen(5000)
+}).listen(process.env.PORT)
 .on("listening", () => {
-    console.log("I am listening on port 5000");
+    console.log("I am listening on port ", process.env.PORT);
 });
